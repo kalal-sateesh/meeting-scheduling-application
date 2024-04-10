@@ -38,7 +38,7 @@ const Input = () => {
   };
 
   return (
-    <div className="lg:w-[100%] w-[100%] h-auto overflow-y-auto p-4 box-border">
+    <div className="lg:w-[100%] w-[100%] lg:h-[100%] h-[50%] overflow-y-auto p-4 box-border">
       <h1 className="text-lg font-bold">Enter Details</h1>
       <label className="font-bold">Name*</label>
       <br></br>

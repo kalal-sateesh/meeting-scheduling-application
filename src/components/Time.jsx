@@ -50,7 +50,7 @@ const Time = () => {
       <div className="lg:h-[25%] h-[12%] w-[95%] text-gray-600 p-3 font-bold lg:text-sm text-xs">
         <p className="mt-16 lg:ms-0 ms-4">{formattedDate}</p>
       </div>
-      <div className="h-[75%] w-[102%] overflow-y-auto">{list}</div>
+      <div className="h-[37%] lg:h-[75%] w-[102%] overflow-y-auto">{list}</div>
     </div>
   );
 };
